@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube clone</title>
+        <link rel="stylesheet" href="youtube.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body style="padding-top: 80px;
+    padding-left: 90px;">
+        <div class="header"> <!--Sice in YT, we have three sections, so we are gonna use 3 divs-->
+            <div class="left-section"> 
+                <img class="hamburger-logo" src="thumbnails/hamburger-menu.svg">
+                <img class="youtube-logo" src="thumbnails/youtube-logo.svg">
+            </div>
+            <div class="center-section">
+                <input class = "search-box" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="thumbnails/search.svg">
+                    <div class="tooltips">Search</div>
+                </button>
+                <button class="microphone-button">
+                    <img class="voice-button" src="thumbnails/voice-search-icon.svg">
+                    <div class="tooltips">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section"> 
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="thumbnails/videologo.svg">
+                    <div class="tooltips">Create</div>
+                </div>
+                <div class="YT-apps-container">
+                    <img class="yt-apps" src="thumbnails/squarebars.svg">
+                <div class="tooltips">Youtube Apps</div>
+                </div>
+                
+                <div class="notifications" style="position: relative;">
+                    <img class="notifications-icon" src= "thumbnails/notifications.svg">
+                    <div class="tooltips">Notifications</div>
+                    <div class="notifications-count" style="position: absolute;">3</div>
+                </div>
+                
+                <div class="profile-pic">
+                    <img class="pfp" src="thumbnails/mypic.jpg">
+                <div class="tooltips">Your Profile</div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="thumbnails/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="thumbnails/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="thumbnails/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            
+            <div class="sidebar-link">
+                <img src="thumbnails/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="thumbnails/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="thumbnails/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+        
+
+        <div class="video-preview">
+        <div class = "first-video">
+        <div class = "thumbnail-row"> <!--USING for nested layouts-->
+            <img class="first-thumbnail" src="thumbnails/thumbnail-1.jpg">
+            <div class="time-1">14:20</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-logo">
+                <img class="profile-pic" src="thumbnails/logo1.jpg">
+            </div>
+            <div class="video-info">
+                <p class="first-para">Coding in Powerpoint</p>
+            <p class = "name">Marris Morx</p>
+            <p class = "time">60K views &#xb7; 10 months ago</p>
+            </div>         
+            
+        </div>       
+        
+        </div>
+
+        <div class = "first-video">
+            <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                <img class="first-thumbnail" src="thumbnails/thumbnail-2.jpg">
+                <div class="time-1">09:25</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-logo">
+                    <img class="profile-pic" src="thumbnails/logo2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="first-para"> No Commentary | Day In The Life of a Software Engineer | Chill & Productive Office Coding </p>
+                <p class = "name">Brian Ruiz</p>
+                <p class = "time">175K views &#xb7; 4 months ago</p>
+                </div>         
+                
+            </div>       
+            
+            </div>
+
+            <div class = "first-video">
+                <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                    <img class="first-thumbnail" src="thumbnails/thumbnail-3.jpg">
+                    <div class="time-1">15:00</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-pic" src="thumbnails/logo3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="first-para">My Ultimate Work From Home Desk Setup For Productivity</p>
+                    <p class = "name">Joma Tech</p>
+                    <p class = "time">3.4M views &#xb7; 3 years ago</p>
+                    </div>         
+                    
+                </div>       
+                
+                </div>
+        
+                <div class = "first-video">
+                    <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                        <img class="first-thumbnail" src="thumbnails/newthumb.jpg">
+                        <div class="time-1">02:40</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-logo">
+                            <img class="profile-pic" src="thumbnails/logo4.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="first-para"> D U V E T - V A G A B O N D </p>
+                        <p class = "name">GHXST</p>
+                        <p class = "time">49K views &#xb7; 2 months ago</p>
+                        </div>         
+                        
+                    </div>       
+                    
+                    </div>
+
+                    <div class = "first-video">
+                        <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                            <img class="first-thumbnail" src="thumbnails/thumbnail-5.jpg">
+                            <div class="time-1">12:55</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-logo">
+                                <img class="profile-pic" src="thumbnails/logo3.jpg">
+                            </div>
+                            <div class="video-info">
+                                <p class="first-para">NFT projects in a nutshell</p>
+                            <p class = "name">Joma Tech</p>
+                            <p class = "time">934K views &#xb7; 2 years ago</p>
+                            </div>         
+                            
+                        </div>       
+                        
+                        </div>
+                
+                        <div class = "first-video">
+                            <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                                <img class="first-thumbnail" src="thumbnails/thumbnail-6.jpg">
+                                <div class="time-1">35:22</div>
+                            </div>
+                            <div class="video-info-grid">
+                                <div class="channel-logo">
+                                    <img class="profile-pic" src="thumbnails/logo5.jpg">
+                                </div>
+                                <div class="video-info">
+                                    <p class="first-para">How successful people achive multiple goals </p>
+                                <p class = "name">James Lim</p>
+                                <p class = "time">24K views &#xb7; 2 months ago</p>
+                                </div>         
+                                
+                            </div>       
+                            
+                            </div>
+
+                            <div class = "first-video">
+                                <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                                    <img class="first-thumbnail" src="thumbnails/thubmnail-7.jpg">
+                                    <div class="time-1">35:22</div>
+                                </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-logo">
+                                        <img class="profile-pic" src="thumbnails/logo7.jpg">
+                                    </div>
+                                    <div class="video-info">
+                                        <p class="first-para">AJR - World's Smallest Violin(Official Video) </p>
+                                    <p class = "name">AJR</p>
+                                    <p class = "time">189M views &#xb7; 3 years ago</p>
+                                    </div>         
+                                    
+                                </div>       
+                                
+                                </div>
+
+                                <div class = "first-video">
+                                    <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                                        <img class="first-thumbnail" src="thumbnails/thumbnail-8.jpg">
+                                        <div class="time-1">0:29</div>
+                                    </div>
+                                    <div class="video-info-grid">
+                                        <div class="channel-logo">
+                                            <img class="profile-pic" src="thumbnails/logo8.jpg">
+                                        </div>
+                                        <div class="video-info">
+                                            <p class="first-para">Duvet. || Vagabond || [MMV/MAV]Quick </p>
+                                        <p class = "name">Kage</p>
+                                        <p class = "time">4.9K views &#xb7; 1 month ago</p>
+                                        </div>         
+                                        
+                                    </div>       
+                                    
+                                    </div>
+
+
+                                    <div class = "first-video">
+                                        <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                                            <img class="first-thumbnail" src="thumbnails/thumbnail-9.jpg">
+                                            <div class="time-1">3:00</div>
+                                        </div>
+                                        <div class="video-info-grid">
+                                            <div class="channel-logo">
+                                                <img class="profile-pic" src="thumbnails/logo9.jpg">
+                                            </div>
+                                            <div class="video-info">
+                                                <p class="first-para">The indomitable human spirit </p>
+                                            <p class = "name">Digitz</p>
+                                            <p class = "time">490K views &#xb7; 3 months ago</p>
+                                            </div>         
+                                            
+                                        </div>       
+                                        
+                                        </div>
+
+
+
+                                        <div class = "first-video">
+                                            <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                                                <img class="first-thumbnail" src="thumbnails/thumbnial-10.jpg">
+                                                <div class="time-1">5:23</div>
+                                            </div>
+                                            <div class="video-info-grid">
+                                                <div class="channel-logo">
+                                                    <img class="profile-pic" src="thumbnails/logo10.jpg">
+                                                </div>
+                                                <div class="video-info">
+                                                    <p class="first-para">I got the job... but at what cost?</p>
+                                                <p class = "name">Frying Pan</p>
+                                                <p class = "time">333K views &#xb7; 1 year ago</p>
+                                                </div>         
+                                                
+                                            </div>       
+                                            
+                                            </div>
+
+
+                                            <div class = "first-video">
+                                                <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                                                    <img class="first-thumbnail" src="thumbnails/thumbnail-11.jpg">
+                                                    <div class="time-1">25:01</div>
+                                                </div>
+                                                <div class="video-info-grid">
+                                                    <div class="channel-logo">
+                                                        <img class="profile-pic" src="thumbnails/logo11.jpg">
+                                                    </div>
+                                                    <div class="video-info">
+                                                        <p class="first-para">Create A Slider Crazy Effects Using HTML, CSS And Javascript </p>
+                                                    <p class = "name">Lun Dev</p>
+                                                    <p class = "time">211K views &#xb7; 4 months ago</p>
+                                                    </div>         
+                                                    
+                                                </div>       
+                                                
+                                                </div>
+
+
+
+                                                <div class = "first-video">
+                                                    <div class = "thumbnail-row"> <!--USING for nested layouts-->
+                                                        <img class="first-thumbnail" src="thumbnails/thumbnail-12.jpg">
+                                                        <div class="time-1">26:31</div>
+                                                    </div>
+                                                    <div class="video-info-grid">
+                                                        <div class="channel-logo">
+                                                            <img class="profile-pic" src="thumbnails/logo12.jpg">
+                                                        </div>
+                                                        <div class="video-info">
+                                                            <p class="first-para">and when I'm back in Chicago I feel it | summer vibe playlist</p>
+                                                        <p class = "name">fillosofia</p>
+                                                        <p class = "time">171K views &#xb7; 2 weeks ago</p>
+                                                        </div>         
+                                                        
+                                                    </div>       
+                                                    
+                                                    </div>
+                        </div>
+
+                        
+
+        
+    </body>
+</html>

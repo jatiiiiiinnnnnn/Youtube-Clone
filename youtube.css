@@ -1,0 +1,276 @@
+p{
+    font-family: Roboto, Arial;
+
+}
+
+.first-thumbnail{
+    width:100%;
+}
+.first-video{
+ 
+    width: 100%;
+    margin-right: 10px;
+}
+.first-para{
+    font-size: 14px;
+    margin-top: 0px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.second-video{
+    width: 100%;
+}
+.second-thumbnail{
+        width:100%;
+    
+}
+.second-para{
+    font-size: 16px;
+}
+
+
+.profile-pic{
+    width: 36px;  
+    border: none;
+    border-radius: 200px;
+}
+.thumbnail-row{
+    margin-bottom: 8px;
+}
+.name, .time{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 0px;
+}
+.time{
+    
+    margin-top: 3px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-preview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+body{
+    margin: 0;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: white;
+}
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.left-section{
+    align-items: center;
+    display: flex;
+}
+.right-section{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.center-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.hamburger-logo{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo{
+    height: 20px;
+
+}
+
+.search-button{
+    height: 39px;
+    width: 60px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    margin-left: -1px;
+    margin-right: 10px;
+    
+}
+.microphone-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240,240,240);
+}
+.search-box{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow:  inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search-box::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+
+.voice-button{
+    height: 24px;
+    margin-top: 4px;
+    
+}
+
+.upload-icon{
+    height: 24px;
+}
+
+.notifications-icon{
+    height: 24px;
+}
+
+.yt-apps{
+    height: 24px;
+}
+
+.pfp{
+    height: 32px;
+    border-radius: 16px;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    background-color: white;
+    z-index: 2;
+    padding-top: 5px;
+}
+.time-1{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.thumbnail-row{
+    position: relative;
+}
+.notifications-count{
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+
+}
+
+.sidebar-link{
+      height: 74px;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(240, 236, 236);
+}
+
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+
+}
+
+.search-button .tooltips,
+.microphone-button .tooltips,
+.upload-icon-container .tooltips,
+.YT-apps-container .tooltips,
+.notifications .tooltips,
+.profile-pic .tooltips{
+    font-family: Roboto, Arial;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-button:hover .tooltips,
+.microphone-button:hover .tooltips,
+.upload-icon-container:hover .tooltips,
+.YT-apps-container:hover .tooltips,
+.notifications:hover .tooltips,
+.profile-pic:hover .tooltips{
+    opacity: 1;
+}
+
+.search-button, .microphone-button,
+.upload-icon-container, .YT-apps-container,
+.notifications, .profile-pic{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
